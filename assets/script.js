@@ -39,11 +39,11 @@ btnRoll.addEventListener('click', function () {
 
 // Create guide alert
 let i = 0;
-if (screen.width < 601) {
-  while (i < 1000) alert('This website is only available for computers');
+if (screen.width < 1050) {
+  while (i < 100) alert('This website is only available for computers');
   i++;
 }
-if (screen.height < 701) {
-  while (i < 1000) alert('This website is only available for computers');
+if (screen.height < 1050) {
+  while (i < 100) alert('This website is only available for computers');
   i++;
 }
