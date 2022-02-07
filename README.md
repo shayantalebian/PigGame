@@ -2,7 +2,7 @@
 
 # Pig Game
 
-### [Live Site](https://pig-game-shayan.netlify.app/)
+### [Live Site ~ Only Available for Computers](https://pig-game-shayan.netlify.app/)
 
 ## Introduction
 
