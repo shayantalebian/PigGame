@@ -36,3 +36,14 @@ btnRoll.addEventListener('click', function () {
     //switch to next player
   }
 });
+
+// Create guide alert
+let i = 0;
+if (screen.width < 601) {
+  while (i < 1000) alert('This website is only available for computers');
+  i++;
+}
+if (screen.height < 701) {
+  while (i < 1000) alert('This website is only available for computers');
+  i++;
+}
