@@ -39,14 +39,15 @@ btnRoll.addEventListener('click', function () {
 });
 
 // Create guide alert
-let i = 0;
 if (screen.width < 1050) {
-  while (i < 3) alert('This website is only available for computers');
-  i++;
+  alert('This website is only available for computers');
+  alert('This website is only available for computers');
+  alert('This website is only available for computers');
   body.style.display = 'none';
 }
 if (screen.height < 1050) {
-  while (i < 3) alert('This website is only available for computers');
-  i++;
+  alert('This website is only available for computers');
+  alert('This website is only available for computers');
+  alert('This website is only available for computers');
   body.style.display = 'none';
 }
