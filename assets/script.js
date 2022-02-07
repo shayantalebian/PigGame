@@ -42,10 +42,8 @@ btnRoll.addEventListener('click', function () {
 if (screen.width < 1050) {
   body.style.display = 'none';
   alert('This website is only available for computers');
-  alert('This website is only available for computers');
 }
 if (screen.height < 1050) {
   body.style.display = 'none';
-  alert('This website is only available for computers');
   alert('This website is only available for computers');
 }
