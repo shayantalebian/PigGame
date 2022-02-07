@@ -39,11 +39,11 @@ btnRoll.addEventListener('click', function () {
 });
 
 // Create guide alert
-if (screen.width < 1050) {
+if (screen.width < 1000) {
   body.style.display = 'none';
   alert('This website is only available for computers');
 }
-if (screen.height < 1050) {
+if (screen.height < 700) {
   body.style.display = 'none';
   alert('This website is only available for computers');
 }
