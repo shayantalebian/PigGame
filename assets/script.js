@@ -1,6 +1,7 @@
 'use strict';
 
 // Selecting elements
+const body = document.querySelector('.body');
 const score0EL = document.querySelector('#score--0');
 const score1EL = document.getElementById('score--1');
 const current0EL = document.getElementById('current--0');
@@ -40,10 +41,12 @@ btnRoll.addEventListener('click', function () {
 // Create guide alert
 let i = 0;
 if (screen.width < 1050) {
-  while (i < 100) alert('This website is only available for computers');
+  while (i < 3) alert('This website is only available for computers');
   i++;
+  body.style.display = 'none';
 }
 if (screen.height < 1050) {
-  while (i < 100) alert('This website is only available for computers');
+  while (i < 3) alert('This website is only available for computers');
   i++;
+  body.style.display = 'none';
 }
