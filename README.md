@@ -1,5 +1,3 @@
-# Status : Not finished yet
-
 # Pig Game
 
 ### [Live Site ~ Only Available for Computers](https://pig-game-shayan.netlify.app/)
