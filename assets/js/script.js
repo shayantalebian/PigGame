@@ -33,7 +33,7 @@ const init = function () {
 
   player0EL.classList.remove('player--active');
   player1EL.classList.remove('player--active');
-  player1EL.classList.remove('player--winner');
+  player0EL.classList.remove('player--winner');
   player1EL.classList.remove('player--winner');
   player0EL.classList.add('player--active');
   diceEL.classList.add('hidden');
@@ -80,7 +80,7 @@ btnHold.addEventListener('click', function () {
       scores[activePlayer];
 
     // 2. Check if player's score is >= 100
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // Finish the game
       playing = false;
       diceEL.classList.add('hidden');
